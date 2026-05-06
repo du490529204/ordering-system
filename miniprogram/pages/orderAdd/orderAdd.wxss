@@ -1,0 +1,5 @@
+.add-box{padding:30rpx;}
+.goods-name{font-size:30rpx;font-weight:bold;}
+.goods-attr{color:#666;margin:20rpx 0;}
+.num-box{margin:40rpx 0;padding:20rpx;background:#fff;border-radius:10rpx;}
+.num{margin:0 30rpx;}

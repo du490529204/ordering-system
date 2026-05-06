@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/orderAdd/orderAdd",
+    "pages/orderList/orderList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1677ff",
+    "navigationBarTitleText": "商品补货下单",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#1677ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商品补货"
+      },
+      {
+        "pagePath": "pages/orderList/orderList",
+        "text": "补货记录"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,5 @@
+<view class="login-box">
+  <view class="title">员工补货系统</view>
+  <input placeholder="请输入员工姓名" bindinput="inputName" value="{{name}}" />
+  <button type="primary" bindtap="login">进入系统</button>
+</view>

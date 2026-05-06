@@ -1,0 +1,14 @@
+<view class="order-list">
+  <block wx:for="{{orderList}}" wx:key="id">
+    <view class="order-item">
+      <view class="flex-row justify-between">
+        <text>{{item.goods_name}}</text>
+        <text wx:if="{{item.status==0}}">待处理</text>
+        <text wx:if="{{item.status==1}}">已发货</text>
+        <text wx:if="{{item.status==2}}">已完成</text>
+      </view>
+      <view>补货数量：{{item.num}}</view>
+      <view>下单时间：{{item.create_time}}</view>
+    </view>
+  </block>
+</view>

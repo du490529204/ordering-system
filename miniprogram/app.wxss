@@ -1,0 +1,14 @@
+page {
+  background: #f5f7fa;
+  font-size: 14px;
+}
+.red {
+  color: #f53f3f;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}

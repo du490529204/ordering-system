@@ -1,0 +1,90 @@
+/* 全局 */
+.container {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* 搜索 */
+.search-box {
+  padding: 20rpx;
+  background: #fff;
+}
+.search-box input {
+  border: 1px solid #eee;
+  border-radius: 50rpx;
+  padding: 20rpx 30rpx;
+  font-size: 28rpx;
+}
+
+/* 主体左右布局 */
+.main-box {
+  display: flex;
+  height: calc(100vh - 120rpx);
+}
+
+/* 竖向TAB */
+.tab-vertical {
+  width: 180rpx;
+  background: #f7f7f7;
+  padding: 20rpx 0;
+  border-right: 1rpx solid #eee;
+}
+.tab {
+  display: block;
+  text-align: center;
+  padding: 24rpx 10rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+.tab.active {
+  background: #fff;
+  color: #1677ff;
+  font-weight: bold;
+  border-left: 6rpx solid #1677ff;
+}
+
+/* 商品区域滚动 */
+.goods-scroll {
+  flex: 1;
+  height: 100%;
+}
+.goods-item {
+  background: #fff;
+  margin: 20rpx;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
+}
+.goods-item image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+.goods-info {
+  flex: 1;
+}
+.name {
+  font-size: 28rpx;
+  font-weight: bold;
+  display: block;
+}
+.attr {
+  color: #999;
+  font-size: 24rpx;
+  display: block;
+  margin-top: 6rpx;
+}
+.price {
+  color: #f53f3f;
+  margin-top: 6rpx;
+  display: block;
+}
+.stock {
+  margin-top: 6rpx;
+  display: block;
+}
+.red {
+  color: #f53f3f;
+}

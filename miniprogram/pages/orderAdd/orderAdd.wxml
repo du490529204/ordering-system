@@ -1,0 +1,16 @@
+<view class="add-box">
+  <view class="goods-name">商品：{{goods.goods_name}}</view>
+  <view class="goods-attr">自定义属性：{{goods.goods_attr||'无'}}</view>
+  <view class="stock">库存：<text class="red">{{goods.stock}}</text></view>
+
+  <view class="num-box flex-row justify-between">
+    <text>补货数量</text>
+    <view class="num-btn">
+      <button size="mini" bindtap="numCut">-</button>
+      <text class="num">{{num}}</text>
+      <button size="mini" bindtap="numAdd">+</button>
+    </view>
+  </view>
+
+  <button type="primary" bindtap="submit">提交补货单</button>
+</view>
